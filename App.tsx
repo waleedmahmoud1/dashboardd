@@ -1,8 +1,8 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { PROJECTS } from './constants';
 import { DailyEntry, ProjectName, DateRangeOption, DateFilterState } from './types';
-import { InputSection } from './components/InputSection';
-import { ProjectSection } from './components/ProjectSection';
+import { InputSection } from './/components/InputSection.tsx';
+import { ProjectSection } from './components/ProjectSection.tsx';
 import { GlobalSummary } from './components/GlobalSummary';
 import { calculateStats, isDateInRange, generateCSV, generateTSV } from './utils';
 import { LayoutDashboard, Layers, Filter, Download, Upload, Save, FileSpreadsheet, Copy, CheckCircle, AlertCircle } from 'lucide-react';
